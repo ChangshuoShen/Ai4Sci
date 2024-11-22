@@ -185,16 +185,9 @@
 
 
 ### Rag2Mol: Structure-based drug design based on Retrieval Augmented Generation
-* <a href="./papers/Rag2M生成的分子在数据库中搜索相似的可购买分子
-        * Rag2Mol-R: 从数据库中创建能够适配3D口袋的新分子
-3. 研究结果：
-    * Rag2Mol方法能持续产生具有更优结合亲和力和药物性的候选药物
-    * Rag2Mol-R相比传统虚拟筛选模型提供了:
-        * 更广泛的化学空间覆盖
-        * 更精确的靶向能力
-    * 两种工作流都成功识别出了针对具有挑战性靶点PTPN2的潜在抑制剂
-4. 研究意义：
-    * 提供了一个可扩展的框架，可以整合多种SBDD方法
+* <a href="https://www.biorxiv.org/content/10.1101/2024.10.20.619266v2">链接</a>
+* <a href="./papers/Rag2Mol.pdf">查看PDF</a>
+* <a href="https://github.com/CQ-zhang-2016/Rag2Mol">代码</a>
 #### 主要内容
 * 背景问题：
     * 药物发现痛点：
@@ -262,7 +255,7 @@ RAG在药物发现的一些相关文章
 * <a href="https://openreview.net/forum?id=0MVWOHwHDb">ICLR链接</a>
 * <a href="./papers/7571_Retrieval_Augmented_Langu.pdf">查看PDF</a>
 #### 摘要提取
-* 问题背景：蛋白质语言模型（PLM，如ESM、ProtineinBert、ProtBert将氨基酸视作token）在捕捉蛋白质序列中编码的生物功能方面存在困难，原因在于缺乏事实性知识（如基因描述）。现有方法使用`蛋白质知识图谱`（PKG，提供蛋白质与基因本体GO之间的生物学关系）作为辅助编码目标，但存在不足：
+* 问题背景：蛋白质语言模型（PLM，如ESM、ProtineinBert、ProtBert将氨基酸视作token）在捕捉蛋白质序列中编码的生物功能方面存在困难，原因在于缺乏事实性知识（如基因描述）。现有方法使用蛋白质知识图谱（PKG，提供蛋白质与基因本体GO之间的生物学关系）作为辅助编码目标，但存在不足：
     * 隐式嵌入知识，难以适应知识更新。
     * 忽略PKG中的结构信息，如蛋白质之间的高阶连接
     * 预训练和微调阶段的知识建模不一致，导致知识灾难性遗忘问题。
