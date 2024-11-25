@@ -254,6 +254,7 @@ RAG在药物发现的一些相关文章
 用于知识感知蛋白质编码的检索增强语言模型
 * <a href="https://openreview.net/forum?id=0MVWOHwHDb">ICLR链接</a>
 * <a href="./papers/7571_Retrieval_Augmented_Langu.pdf">查看PDF</a>
+* <a href="https://anonymous.4open.science/r/Kara-1DB8/">codes</a>
 #### 摘要提取
 * 问题背景：蛋白质语言模型（PLM，如ESM、ProtineinBert、ProtBert将氨基酸视作token）在捕捉蛋白质序列中编码的生物功能方面存在困难，原因在于缺乏事实性知识（如基因描述）。现有方法使用蛋白质知识图谱（PKG，提供蛋白质与基因本体GO之间的生物学关系）作为辅助编码目标，但存在不足：
     * 隐式嵌入知识，难以适应知识更新。
